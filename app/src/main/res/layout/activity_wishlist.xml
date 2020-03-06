@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WishlistActivity">
+
+    <include
+        layout="@layout/toolbar_sub"
+        android:id="@+id/toolbar_sub"/>
+
+    <ListView
+        android:id="@+id/wish_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_sub"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+            android:onClick="Select_Order"
+            android:text="선택 주문하기" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Select_Delete"
+            android:text="선택 삭제하기" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

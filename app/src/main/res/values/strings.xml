@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">신민의 공룡공장</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order_list">주문내역</string>
+    <string name="wish_list">장바구니</string>
+    <string name="item_list">판매상품</string>
+    <string name="sns">SNS</string>
+    <string name="custom_order">주문제작</string>
+    <string name="notice">공지사항</string>
+    <string name="login">로그인</string>
+    <string name="home">HOME</string>
+    <string name="write_review">후기작성</string>
+    <string name="review">review</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="logout">로그아웃</string>
+
+    <string name="review_hint">
+        리뷰를 작성해 주세요\n사진은 1장 등록할 수 있습니다\n주제와 관련없는 사진이나 내용이 포함되어있으면\n게시글이 삭제될 수 있습니다.
+    </string>
+
+    <string name="dino">공룡 에디션</string>
+    <string name="stone">원석반지/귀걸이</string>
+    <string name="biz">비즈반지</string>
+
+    <string-array name="dinolist">
+        <item> 공룡공장1</item>
+        <item> 공룡공장2</item>
+        <item> 공룡공장3</item>
+        <item> 공룡공장4</item>
+        <item> 공룡공장5</item>
+        <item> 공룡공장6</item>
+        <item> 공룡공장7</item>
+        <item> 공룡공장8</item>
+        <item> 공룡공장9</item>
+        <item> 공룡공장10</item>
+        <item> 공룡공장11</item>
+    </string-array>
+
+    <string name="order_caution">
+        구매 주의사항\n
+        주문 물품의 옵션/수량, 배송정보를 다시한번 확인해 주시기 바랍니다.\n
+        받으시는분과 입금자명이 다를경우 입금확인이 늦어질 수 있습니다.\n
+        입금확인 후 제품제작/배송 작업이 이루어지니 참고바랍니다.\n
+        기타문의는 인스타/트위터로 가능합니다.
+    </string>
+
+    <string name="test_order">
+        물품 : 공룡에디션\n모양 : 공룡1\n종류 : 목걸이
+    </string>
+</resources>
