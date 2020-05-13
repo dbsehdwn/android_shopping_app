@@ -10,6 +10,8 @@ android studio
 java   
 php   
 
+사용 라이브러리 : Glide, Volley, Okhttp3
+
 주요기능
 --------
 회원가입. 로그인   
